@@ -224,6 +224,7 @@ The entire `pipeline` is defined in the class `FrameProcessor` in the file named
 To be able to annotate the lane region with the polygon obtained above on the original image, it is essential to perform a reverse perspective transformation of the polygon so that they become aligned to the lane lines of the original image. I performed this operation using the `aerializer.deaerialize()` method mentioned earlier. This is done inside the `annotation()` method of `FrameProcessor` (code lines 35 thorugh 50). I also wrote the curvature of the road and position of the vehicle on the lane obtained above on the image using the `write_curvature()` method of `FrameProcessor` (code lines 57 through 88). To make the text more "Robotic" I used Consolas.ttf font face.
 
 The result obtained is as follows:
+
 |Final Result           |
 |:-------------------------:|
 |![alt text][image6.0]      |
