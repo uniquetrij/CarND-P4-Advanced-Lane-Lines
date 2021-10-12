@@ -43,7 +43,7 @@ notebook==5.4.0
 numpy==1.14.1
 oauthlib==1.0.3
 onboard==1.2.0
-opencv-python==3.4.0.12
+opencv-python==3.4.7.28
 padme==1.1.1
 pandocfilters==1.4.2
 pexpect==4.0.1
